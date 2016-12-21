@@ -1,0 +1,182 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+.logo {
+	background: url('http://houseplans-dev.s3.amazonaws.com/interview/logo.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	height: 4.688rem;
+	text-indent: -5000rem;
+	overflow: hidden;
+}
+
+.clear-margin {
+	margin: 0;
+}
+
+.clear-padding {
+	padding: 0;
+}
+
+.clear-border-radius {
+	border-radius: 0;
+}
+
+.vertical-col-pad {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.clear-left-pad {
+	padding-left: 0;
+}
+
+.clear-right-pad {
+	padding-right: 0;
+}
+
+.navbar {
+			position: absolute;
+			top: 57px;
+			right: 10px;
+			z-index: 1;
+		}
+
+.navbar-toggle {
+	margin-bottom: 0;
+	border: 0;
+	padding-bottom: 19px;
+}
+
+.navbar-toggle.collapsed {
+	padding-bottom: 9px;
+}
+
+.navbar-default{
+  background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover
+{
+  color:#FFF;
+  font-family: Muli Semibold;
+  padding-right: 40px;
+}
+.collapse ,
+.navbar-collapse{
+  background-color:#4e7D93;
+  border: 0;
+  margin-right: 8px !important;
+  box-shadow: none;
+}
+.navbar-default .navbar-toggle ,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+    border-color: #4E7D93;
+    background-color: #4E7D93;
+    color: #fff;
+    margin-right: 23px;
+}
+
+.backimg{
+  background-image: url("http://houseplans-dev.s3.amazonaws.com/interview/cabin1_banner.jpg");
+  width:100%;
+  height:200px;
+  background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-top:10px;
+
+}
+.Titles-color{
+  font-family: Alegreya regular;
+	font-size: 1.5rem;
+	color:#fff;
+
+}
+.featurTitle-color{
+  font-family: Alegreya regular;
+	font-size: 1.5rem;
+}
+.content-color{
+  font-family: Muli Light;
+	font-size: 0.8rem;
+	color:#fff;
+
+}
+.feature-content-color{
+  font-family: Muli Light;
+	font-size: 0.8em;
+	width:100%;
+}
+.feature-content-color p{
+width: 60%;
+position: relative;
+left: 20%;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #ff4600;
+  border-color: #ff4600;
+  width:166px;
+  border-radius:10px;
+}
+.middle-allign{
+  text-align: center;
+  position:relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		.logo {
+			height: 100px;
+		}
+		.navbar {
+			position: static;
+		}
+		.backimg {
+			height: 300px;
+		}
+		.Titles-color,.featurTitle-color {
+			font-size: 2rem;
+		}
+		.content-color,.feature-content-color {
+			font-size: 1rem;
+		}
+		.reset-left-pad {
+			padding-left: 15px;
+		}
+		.cabin-collection {
+			height: 245px;
+		}
+    }
